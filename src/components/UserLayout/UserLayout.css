@@ -1,0 +1,25 @@
+.user-card {
+  padding: 24px 10px;
+  display: flex;
+  max-width: 640px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.user-card img {
+  width: 200px;
+  height: 200px;
+}
+
+.user-info {
+  text-align: left;
+  padding: 0 0 0 24px;
+}
+
+.user-page-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 640px;
+  margin: 0 auto;
+}

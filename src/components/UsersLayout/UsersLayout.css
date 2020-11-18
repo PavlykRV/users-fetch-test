@@ -1,0 +1,54 @@
+.list-wrp {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-item {
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 10px;
+  cursor: pointer;
+  color: #2f2f2f;
+  text-decoration: none;
+  transition: all .25s ease;
+}
+
+.list-item:hover {
+  background-color:  #2f2f2f;
+  color: #ffffff;
+}
+
+.list-item-descr {
+  text-align: left;
+}
+
+.list-item img {
+  width: 100px;
+  height: 100px;
+}
+
+.list-title {
+  display: flex;
+  padding: 0 10px;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.list-title select {
+  border: none;
+  margin-right: 24px;
+  height: 30px;
+}
+
+.list-title button {
+  height: 30px;
+  cursor: pointer;
+}
